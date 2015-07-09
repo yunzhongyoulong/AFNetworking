@@ -35,7 +35,7 @@
     [super setUp];
 
     //both of these manager objects should always be reachable when the tests are run
-    self.domainReachability = [AFNetworkReachabilityManager managerForDomain:@"localhost"];
+    self.domainReachability = [AFNetworkReachabilityManager managerForDomain:@"apple.com"];
 
     //don't use the shared manager because it retains state between tests
     //but recreate it each time in the same way that the shared manager is created
